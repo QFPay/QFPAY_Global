@@ -1,6 +1,7 @@
-# QFPAY_Oversea
-## Overview
-The QFPay Request URL：https://osqt.qfpay.com                     
+# Table of Contents
+## Introduction
+This documentation is for QFPAY oversea integration。
+The QFPay Request URL：https://osqt.qfpay.com                     
 Note:This API has no sandbox enviroment, please be noted.
 ## 0.Request method      
 * 1.Non OAuth 2.0 Interface 
