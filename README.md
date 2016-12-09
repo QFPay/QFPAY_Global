@@ -7,7 +7,7 @@ Note:This API has no sandbox enviroment, please be noted.
 * appcode：Developer only identification ID.
 * key: Developer key， invoke other interfaces except SDK,include refund，reverse，get OAuth and access token，
 
-## 0.Request method      
+## [0.Request method](https://github.com/linan0828/QFPAY_Oversea/blob/master/0_Request_method.md)     
 * 1.Non OAuth 2.0 Interface 
 * 2.OAuth 2.0 Interface    
 
