@@ -44,3 +44,20 @@ Response：
     "mchid": "BvDtmKJA5mx7GpN0"  // 子商户 id
 }
  ```     
++ 2./uploadcert-------upload more information                    
+Upload sign up interface for file not upload yet.                          
+POST        
+
+| Field Name    | Description   | Required  | Notes 	 | 
+| ------------- |:-------------:| ---------:| ----------:|
+|mchid  |The code return by signup interface.| Y | |
+| idcardfront |Idcard front photo|Y  |File |
+|  licensephoto|Business Registration license photo|  | |File|
+|  ||  | ||
+|  ||  | ||
+|  ||  | ||
+|  ||  | ||
+|  ||  | ||
+|  ||  | ||
+|  ||  | ||
+
