@@ -11,7 +11,7 @@ Note:This API has no sandbox enviroment, please be noted.
 * 1.Non OAuth 2.0 Interface 
 * 2.OAuth 2.0 Interface    
 
-## [1.Sub merchant signup/query (/mch/v1)](https://github.com/linan0828/QFPAY_Oversea/blob/master/1_signup_method.md)
+## [1.Sub merchant signup/query (/mch/v1)](https://github.com/linan0828/QFPAY_Oversea/blob/master/1_signup.md)
 * 1./signup------------sign up 
 * 2./uploadcert-------upload more information 
 * 3./query-------------query user info
