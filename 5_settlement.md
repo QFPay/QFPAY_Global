@@ -3,10 +3,10 @@
 
 Field Name|	Description|	Required	|Notes|	Example|
 |:--:|:--:|:--:|:--:|:--:|
-|mchid	The code return by signup interface.|	Y|	Sub-merchant ID|	BvDtmKJA5mx7GpN0|
-|Date_start|	Query settlement start date|	Y|	20160101|	
-|Date_end|	Query settlement end date|	Y	20160130|	
-|paymethod	Payment method|	N|	2(Alipay),3(Wechat)|	
+|mchid|	The code return by signup interface.|	Y|	Sub-merchant ID|	BvDtmKJA5mx7GpN0|
+|Date_start|	Query settlement start date|	Y|	20160101|	|
+|Date_end|	Query settlement end date|	Y	20160130|	|
+|paymethod	Payment method|	N|	2(Alipay),3(Wechat)|	|
 
 ···javascript
 Response
