@@ -36,7 +36,7 @@ Note:This API has no sandbox enviroment, please be noted.
 * 1./baseinfo--------Get user information
 * 2./tradelist--------Get order information
 
-## 5.Settlement query：
+## [5.Settlement query]((https://github.com/linan0828/QFPAY_Oversea/blob/master/5_settlement.md)
 * 1./settlement/v1/query
 
 ## [6. Appendix](https://github.com/linan0828/QFPAY_Oversea/blob/master/appendix.md)
