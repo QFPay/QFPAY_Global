@@ -132,4 +132,37 @@ Response:
         "errmsg": ""
     }]
 }
-'''
+```
+
+
++ 6. /Pre order notification
+
+For pre order ,when server get payment result, the result will be sent through pre-configured  callback address,and set signature in HTTP Header X-QF-SIGN,including the following data:
+
+| Field Name    | Description   | Required  | Notes 	 | Example  |
+| ------------- |:-------------:| ---------:| ----------:| --------:|
+|Mchid  |The code return by signup interface| |If not fill in |BvDtmKJA5mx7GpN0 |
+|syssn  |original transaction number|Y|
+| pay_type |Payment type|Y | | 800208|
+| out_trade_no |Reference number| Y| |1470020842103 |
+| txdtm |Payment time| | | |
+| txamt |Payment amount,unit is the minimum unit of the currency.| | | 10|
+| udid |Device unique id| | | |
+|respcd|Respond code|||0000|
+|respmesg|Respond message||||
+
++  7.Online Alipay payment redirect parameters
+For Alipay online payment, after the transaction, it will redirect to the return_url set by the merchant,with the GET method and the following parameters:
+
+| Field Name    | Description   | Required  | Notes 	 | Example  |
+| ------------- |:-------------:| ---------:| ----------:| --------:|
+|Mchid  |The code return by signup interface| |If not fill in |BvDtmKJA5mx7GpN0 |
+|syssn  |original transaction number|Y|
+| pay_type |Payment type|Y | | 800208|
+| out_trade_no |Reference number| Y| |1470020842103 |
+| txdtm |Payment time| | | |
+| txamt |Payment amount,unit is the minimum unit of the currency.| | | 10|
+| udid |Device unique id| | | |
+|respcd|Respond code|||0000|
+|respmesg|Respond message||||
+
