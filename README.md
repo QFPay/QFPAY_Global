@@ -37,5 +37,5 @@ Note:This API has no sandbox enviroment, please be noted.
 ## 5.Settlement query：
 * 1./settlement/v1/query
 
-## 6. Appendix
+## 6. Appendix(https://github.com/linan0828/QFPAY_Oversea/blob/master/respcd.md)
 * 1.Respcd List
