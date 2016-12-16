@@ -1,5 +1,6 @@
 #  3.OAuth authorization(/oauth/v2).
 + 1. authorize--------User authorization
+
 Request type: GET
 In client side, open the interface page, it will prompt user authorization, if the authorization is succeed, it will call back to redirect_url.
 
@@ -24,3 +25,4 @@ Request type: POST
 
 For data security purpose, please make sure call this interface from the server side,the access_token will be used in the later interface invocation.
 Call parameters:
+
