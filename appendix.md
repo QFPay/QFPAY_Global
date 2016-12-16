@@ -1,5 +1,5 @@
 # Appendix
-+ 1 Response Code
++ 1.Response Code
 
 |respcd|Error Reason|
 | ------------- |:-------------:| 
@@ -78,4 +78,4 @@
 |1204|Bank error|
 
 
-+ 2 Example Code
++ 2.Example Code
