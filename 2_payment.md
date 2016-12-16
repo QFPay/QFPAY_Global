@@ -152,6 +152,7 @@ For pre order ,when server get payment result, the result will be sent through p
 |respmesg|Respond message||||
 
 +  7.Online Alipay payment redirect parameters
+
 For Alipay online payment, after the transaction, it will redirect to the return_url set by the merchant,with the GET method and the following parameters:
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
