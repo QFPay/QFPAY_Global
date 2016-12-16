@@ -66,4 +66,52 @@ Response：
     "respmsg": ""
 }
  ```     
+ 
++ 3./query-------------query user info 
+GET
+| Field Name    | Description   | Required  | Notes 	 | 
+| ------------- |:-------------:| ---------:| ----------:|
+|mchid  |The code return by signup interface.| Y|By invoke mcc list interface to get|
+Response：
+```javascript
+{
+    "respcd": "0000",
+    "respmsg": "",
+    "data": {
+        "username": "",       // username	
+        "name": "",           // Enterprise name
+        "email": "",          // email address
+        "mobile": "",         // mobile phone number
+        "idnumber": "",       // ID Card number
+        "legalperson": "",    // Legal person name
+        "shopname": "",       // Shop name
+        "country": "",        // Country name
+        "city": "",           // City name
+        "address": "",        // address
+        "businessaddr": "",   // business address
+        "bankaccount": "",    // bank account number
+        "bankuser": "",       // Account holder name
+        "bankcountry": "",    // Bank of deposit name
+        "bankcity": "",       // Bank of deposit city
+        "bankaddr": "",       // Bank of deposit address
+        "bankname": "",       // Bank name
+        "bankswiftcode": "",  // Bank Swift code
+        "state": 1            // user state
+    }
+}
+ ``` 
+ 
+ + 4./mcc mcc list interface
 
+This interface get be visited by HTTP GET method, no other field or signature needed.
+Response:
+```javascript
+{
+"respcd": "0000",
+    "respmsg": "",
+    "data": {
+        "mcc_list": [{
+            "mcc_id": 6128181289566687125,
+            "mcc_name": "XXX"
+        }
+```
