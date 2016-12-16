@@ -17,7 +17,7 @@ Note:This API has no sandbox enviroment, please be noted.
 * 3./query-------------query user info
 * 4./mcc---------------Merchant Category Codes
 
-##  2.Payment(/trade/v1)
+##  2.Payment(/trade/v1)(https://github.com/linan0828/QFPAY_Oversea/blob/master/2_payment.md)
 * 1./payment----------payment
 * 2./close--------------close the order
 * 3./refund------------refund the money
