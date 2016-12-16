@@ -1,3 +1,6 @@
+# Appendix
++ 1 Response Code
+
 |respcd|Error Reason|
 | ------------- |:-------------:| 
 |1101|Need to take the initiative to correct|
@@ -74,3 +77,5 @@
 |1203|Account error|
 |1204|Bank error|
 
+
++ 2 Example Code
