@@ -53,11 +53,17 @@ POST
 |mchid  |The code return by signup interface.| Y | |
 | idcardfront |Idcard front photo|Y  |File |
 |  licensephoto|Business Registration license photo|  | |File|
-|  ||  | ||
-|  ||  | ||
-|  ||  | ||
-|  ||  | ||
-|  ||  | ||
-|  ||  | ||
-|  ||  | ||
+| Goodphoto |Interior shop photo|  | File|
+| Shopphoto |Exterior shop photo|  |File |
+|Credit_front  |Company registration license photo|  |File |
+| shoper |Staff member photo|  |File |
+|Other_1  |Others|  |File |
+| Other2 |Others|  | File|
+Response：
+```javascript
+{
+   "respcd": "0000",
+    "respmsg": ""
+}
+ ```     
 
