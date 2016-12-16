@@ -68,7 +68,9 @@ Response：
  ```     
  
 + 3./query-------------query user info 
+
 GET
+
 | Field Name    | Description   | Required  | Notes 	 | 
 | ------------- |:-------------:| ---------:| ----------:|
 |mchid  |The code return by signup interface.| Y|By invoke mcc list interface to get|
