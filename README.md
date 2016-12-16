@@ -1,7 +1,9 @@
 # Table of Contents
 ## Introduction
-This documentation is for QFPAY oversea integration。
-The QFPay Request URL：https://osqt.qfpay.com                     
+This documentation is for QFPAY oversea integration.
+
+To invoke the payment interface for example ,the URL is :https://osqt.qfpay.com/trade/v1/payment
+
 Note:This API has no sandbox enviroment, please be noted.
 ## Glossary
 * appcode：Developer only identification ID.
