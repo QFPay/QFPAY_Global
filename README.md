@@ -32,7 +32,7 @@ Note:This API has no sandbox enviroment, please be noted.
 * 1./authorize-------User authorization
 * 2./access_token---Get/Refresh access_token
 
-## [4.OAuth query(/user/v1)]()
+## [4.OAuth query(/user/v1)](https://github.com/linan0828/QFPAY_Oversea/blob/master/4_OAuth_query.md)
 * 1./baseinfo--------Get user information
 * 2./tradelist--------Get order information
 
