@@ -39,3 +39,5 @@ Note:This API has no sandbox enviroment, please be noted.
 
 ## [6. Appendix](https://github.com/linan0828/QFPAY_Oversea/blob/master/appendix.md)
 * 1.Respcd List
+* 2.Example code
+* 3.Common questions
