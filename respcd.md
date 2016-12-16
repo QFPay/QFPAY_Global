@@ -65,12 +65,12 @@
 |1153|Pre authorization amount  error|
 |1154|internal error|
 |1155|Revoke is not allowed|
-|1161|"Unknown results| the query needs to be verified again.|
+|1161|Unknown results| the query needs to be verified again.|
 |1170|Channeld cannot provide service|
-|1180|"Route reset| needs to be reconfigured.|
+|1180|Route reset| needs to be reconfigured.|
 |1181|Order expired|
 |1201|?Insufficient funds|
 |1202|Payment code error|
 |1203|Account error|
 |1204|Bank error|
-|
+
