@@ -19,6 +19,7 @@ After user authentication, with the following parameters：
 |state  |If pass this parameter, it will return this parameter.|
 
 + 2.Get access_token(oauth/v2/access_token)
+
 Request type: POST
 
 For data security purpose, please make sure call this interface from the server side,the access_token will be used in the later interface invocation.
