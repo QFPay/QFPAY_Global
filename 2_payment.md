@@ -48,9 +48,9 @@ Response:
 | udid|| | | |
 
 
-+ 3.  /refund------------refund the money
++ 3.  /refund ------------refund the money
  
- | Field Name     | Required  | Description|  
+| Field Name     | Required  | Description|  
 | ------------- |:-------------:| ---------:|
 |syssn  |Y|original transaction number|
 |out_trade_no  |Y|refund number,not the original transaction number.|
@@ -97,3 +97,39 @@ Response:
     "syssn": "201607280901020011216137",
 }
 ```
+
++ 5. /query------------query an order
+
+| Field Name    |Required  | Description    | 
+| ------------- |:-------------:| ---------:|
+| syssn ||QFPay order number, delimited by English comma. |
+| out_trade_no || External order number,delimited by English comma.|
+| pay_type || Payment type,delimited by English comma.|
+| respcd ||Response return code,default return all default response code. |
+| start_time || Start time YYYY-MM-DD HH:mm:ss ,begin from this month.|
+| end_time ||End time YYYY-MM-DD HH:mm:ss,end with this month |
+|  page||Page default 1 |
+|page_size||Default page size：10|
+
+Response:
+```javascript
+{
+    "respcd": "0000",
+    "respmsg": "", 
+    "page": 1,
+    "page_size": 10,
+    "data": [{
+        "pay_type": "800201",
+        "sysdtm": "2016-07-26 17:02:01",
+        "order_type": "payment",
+        "txcurrcd": "HKD", 
+        "txdtm": "2016-07-26 17:02:01",
+        "txamt": "1",
+        "out_trade_no": "1469523721486",
+        "syssn": "201607260901020011216001",
+        "cancel": "2",
+        "respcd": "1142",
+        "errmsg": ""
+    }]
+}
+'''
