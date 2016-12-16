@@ -1,5 +1,5 @@
 #  3.OAuth authorization(/oauth/v2).
-+ 1. authorize--------User authorization
++ 1. /authorize--------User authorization
 
 Request type: GET
 In client side, open the interface page, it will prompt user authorization, if the authorization is succeed, it will call back to redirect_url.
@@ -19,7 +19,7 @@ After user authentication, with the following parameters：
 |code  |For get access_token’s code|
 |state  |If pass this parameter, it will return this parameter.|
 
-+ 2.Get access_token(oauth/v2/access_token)
++ 2. /access_token(Get access_token)
 
 Request type: POST
 
