@@ -1,5 +1,6 @@
 # 2.Payment(/trade/v1)
-1. /payment---------------Open a payment
+
++ 1. /payment---------------Open a payment
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
 | ------------- |:-------------:| ---------:| ----------:| --------:|
@@ -35,7 +36,7 @@ Response:
 {"sysdtm": "2016-12-16 15:53:18", "resperr": "", "respmsg": "OK", "out_trade_no": "XXX", "syssn": "XXX", "respcd": "0000", "pay_url": "XXX"}
 ```
 
-2. /close--------------close the order
++ 2.  /close--------------close the order(Only applicable for Wechat)
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
 | ------------- |:-------------:| ---------:| ----------:| --------:|
@@ -47,4 +48,52 @@ Response:
 | udid|| | | |
 
 
-3. /refund------------refund the money
++ 3.  /refund------------refund the money
+ 
+ | Field Name     | Required  | Description|  
+| ------------- |:-------------:| ---------:|
+|syssn  |Y|original transaction number|
+|out_trade_no  |Y|refund number,not the original transaction number.|
+| txamt |Y|amount|
+| txdtm |Y|request side time|
+|udid  |N|device only id|
+|Mchid  ||The code return by signup interface.|
+
+Response:
+```javascript
+{
+    "orig_syssn": "201607280901020011216135",
+    "respmsg": "",
+    "txdtm": "2016-07-28 14:13:50",
+    "txamt": "1",
+    "out_trade_no": "1469686430937",
+    "sysdtm": "2016-07-28 14:13:51",
+    "syssn": "201607280901020011216137",
+}
+```
+
++ 4. /reversal-----------cancel/flushes(Only applicable for Alipay)
+
+When the payment failed, it will close the order.
+When the payment is successful,then refund the payment will close the order.
+
+| Field Name    |Required  | Description    | 
+| ------------- |:-------------:| ---------:|
+| mchid |Y| The code return by signup interface.|
+|syssn|Y||transaction serial number|
+|out_trade_no|Y||external order number|
+|txdtm|Y||transaction time|
+|txamt|Y||transaction amount|
+|udid||Device only id|
+Response:
+```javascript
+{
+    "orig_syssn": "201607280901020011216135",
+    "respmsg": "",
+    "txdtm": "2016-07-28 14:13:50",
+    "txamt": "1",
+    "out_trade_no": "1469686430937",
+    "sysdtm": "2016-07-28 14:13:51",
+    "syssn": "201607280901020011216137",
+}
+```
