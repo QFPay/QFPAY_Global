@@ -16,13 +16,13 @@
 
 Pay_type has the following parameters:
 
-|Pay_type | Type of payment   |
-| ------------- |:-------------:| 
-|800151  |Alipay pre order|
-| 800108 |Alipay swipe card|
-|800201  |Wechat pre order|
-| 800207 |Wechat H5|
-|800208  |Wechat swipe card|
+|Pay_type | Type of payment   |Comments |
+| ------------- |:-------------:|:-------------:| 
+|800151  |Alipay pre order|Alipay Online Payment|
+| 800108 |Alipay swipe card|Alipay Offline Payment|
+|800201  |Wechat pre order|Wechat Online Payment|
+| 800207 |Wechat H5|Wechat offical account(H5) Payment|
+|800208  |Wechat swipe card|Wechat Offline Payment|
 
 Attention:Alipay and Wechat have some difference!!
 
