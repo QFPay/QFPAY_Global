@@ -1,5 +1,6 @@
 # 2.Payment(/trade/v1)
  This payment API only applicable for Chinese mainland E-wallet.
+ This payment API can not be used in a mobile phone app development.
  
 + 1. /payment---------------Open a payment
 
@@ -13,6 +14,7 @@
 | udid |Device unique id| | | |
 | auth_code |Authentication code| | | |
 | openid || | | |
+| product_name|product name/good name| | | |
 | lnglat |Latitude,longtitude,format is "12.34 56.78",latitude in the front,demlit by one space| | | |
 
 Pay_type has the following parameters:
