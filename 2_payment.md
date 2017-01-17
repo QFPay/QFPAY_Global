@@ -156,7 +156,7 @@ For pre order ,when server get payment result, the result will be sent through p
 
 +  7.Online Alipay payment redirect parameters
 
-For Alipay online payment, after the transaction, it will redirect to the return_url set by the merchant,with the GET method and the following parameters:
+For Alipay online payment, after the transaction, it will redirect to the return_url set by QFPay(Note:Merchant needs to tell QFPay technical person with return_url information),with the GET method and the following parameters:
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
 | ------------- |:-------------:| ---------:| ----------:| --------:|
