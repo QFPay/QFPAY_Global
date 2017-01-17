@@ -1,5 +1,6 @@
 # 2.Payment(/trade/v1)
-
+ This payment API only applicable for Chinese mainland E-wallet.
+ 
 + 1. /payment---------------Open a payment
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
