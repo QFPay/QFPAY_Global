@@ -137,7 +137,7 @@ Response:
 
 + 6. /Pre order notification
 
-For pre order ,when server get payment result, the result will be sent through pre-configured  callback address,and set signature in HTTP Header X-QF-SIGN,including the following data:
+For pre order ,when server get payment result, the result will be sent through pre-configured callback(notify) address（Note:The callback address is set by QFPay technical support）,and set signature in HTTP Header X-QF-SIGN,including the following data:
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
 | ------------- |:-------------:| ---------:| ----------:| --------:|
