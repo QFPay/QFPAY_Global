@@ -1,5 +1,6 @@
 # 2.Payment(/trade/v1)
  This payment API only applicable for Chinese mainland E-wallet.
+ 
  This payment API can not be used in a mobile phone app development.
  
 + 1. /payment---------------Open a payment
