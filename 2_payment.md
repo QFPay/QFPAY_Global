@@ -113,11 +113,11 @@ Response:
 | syssn ||Transaction serial number,it supports batch query,use "," to delimit mutliple syssn |201607280901020011216135,201607280901020011216136
 | out_trade_no ||out_trade_number,it supports batch query,use "," to delimit mutliple out_trade_number|1470020842103,1470020842104 
 | pay_type || Payment type,it supports batch query,use "," to delimit mutliple pay_type|800201,800208
-| respcd ||Response return code,default return all default response code. |0000
-| start_time | |Start time YYYY-MM-DD HH:mm:ss ,begin from this month.|
-| end_time ||End time YYYY-MM-DD HH:mm:ss,end with this month |
-| page||Page default 1 |
-|page_size||Default page size：10|
+| respcd || |0000
+| start_time | |Start time YYYY-MM-DD HH:mm:ss ,begin from this month.|2016-08-01 11:00:00
+| end_time ||End time YYYY-MM-DD HH:mm:ss,end with this month |2016-08-21 11:00:00
+| page||Page default 1 |1
+|page_size||Default page size：10|20
 
 Response:
 ```javascript
