@@ -119,6 +119,9 @@ Response:
 | page||Page default 1 |1
 |page_size||Default page size：10|20
 
+Note:
+If use start_time and end_time for query, syssn and out_trade_no can be ignored.
+
 Response:
 ```javascript
 {
