@@ -106,15 +106,17 @@ Response:
 
 + 5. /query------------query an order
 
-| Field Name    |Required  | Description    | 
-| ------------- |:-------------:| ---------:|
-| syssn ||QFPay order number, delimited by English comma. |
-| out_trade_no || External order number,delimited by English comma.|
-| pay_type || Payment type,delimited by English comma.|
-| respcd ||Response return code,default return all default response code. |
-| start_time || Start time YYYY-MM-DD HH:mm:ss ,begin from this month.|
+
+|Field Name|Required|Description|Example
+| ------------- |:-------------:| ---------:|---------:|
+| mchid |Y| It returns from signup interface|BvDtmKJA5mx7GpN0
+| syssn ||Transaction serial number,it supports batch query,use "," to delimit mutliple syssn |201607280901020011216135,201607280901020011216136
+| out_trade_no ||out_trade_number,it supports batch query,use "," to delimit mutliple out_trade_number|1470020842103,1470020842104 
+| pay_type || Payment type,it supports batch query,use "," to delimit mutliple pay_type|800201,800208
+| respcd ||Response return code,default return all default response code. |0000
+| start_time | |Start time YYYY-MM-DD HH:mm:ss ,begin from this month.|
 | end_time ||End time YYYY-MM-DD HH:mm:ss,end with this month |
-|  page||Page default 1 |
+| page||Page default 1 |
 |page_size||Default page size：10|
 
 Response:
