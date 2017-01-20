@@ -3,6 +3,8 @@
  
  This payment API can not be used in a mobile phone app development.
  
+ One appcode can only correspond to one notify and one return URL, even throught one merchant have multiple payment types.(For example ,one merchant have both Alipay and Wechat payment type,merchant can not set two notify and two return URL separately.)
+ 
 + 1. /payment---------------Open a payment
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
