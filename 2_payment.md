@@ -44,7 +44,7 @@ Response:
 {"sysdtm": "2016-12-16 15:53:18", "resperr": "", "respmsg": "OK", "out_trade_no": "XXX", "syssn": "XXX", "respcd": "0000", "pay_url": "XXX"}
 ```
 
-+ 2.  /close--------------close the order(Only applicable for Wechat)
++ 2.  /close--------------close the order(Only applicable for Online payment)
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
 | ------------- |:-------------:| ---------:| ----------:| --------:|
@@ -80,10 +80,9 @@ Response:
 }
 ```
 
-+ 4. /reversal-----------cancel/flushes(Only applicable for Alipay)
-
++ 4. /reversal-----------Only applicable for offline situation.
 When the payment failed, it will close the order.
-When the payment is successful,then refund the payment will close the order.
+When the payment is successful,then refund the payment and close the order.
 
 | Field Name    |Required  | Description    | 
 | ------------- |:-------------:| ---------:|
