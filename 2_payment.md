@@ -15,7 +15,7 @@
 | txdtm |Payment time| Y | |2016-08-01 11:07:22|
 | txamt |Payment amount,unit is the minimum unit of the currency.| 1470020842103| | 10|
 | udid |Device unique id| | | |
-| auth_code |Authentication code| | | |
+| auth_code |Authentication code.It is used for offline scene only.| | | |
 | openid || | | |
 | product_name|product name/good name| | | |
 | lnglat |Latitude,longtitude,format is "12.34 56.78",latitude in the front,demlit by one space| | | |
@@ -28,7 +28,7 @@ Note：800151,800152,800201 is for online scene.800108,800208 is for offline sce
 | ------------- |:-------------:|:-------------:| 
 |800151  |Alipay pre order|Alipay Online Payment(Offline)|
 |800152  |Alipay WAP|Alipay Online WAP Payment|
-| 800108 |Alipay swipe card|Alipay Offline Payment|
+|800108 |Alipay swipe card|Alipay Offline Payment|
 |800201  |Wechat pre order|Wechat Online Payment|
 |800208  |Wechat swipe card|Wechat Offline Payment|
 
