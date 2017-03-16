@@ -26,7 +26,7 @@ Note：800151,800152,800201 is for online scene.800108,800208 is for offline sce
 
 |Pay_type | Type of payment   |Comments |
 | ------------- |:-------------:|:-------------:| 
-|800151  |Alipay pre order|Alipay Online Payment(Offline)|
+|800151  |Alipay pre order|Alipay Online Payment|
 |800152  |Alipay WAP|Alipay Online WAP Payment|
 |800108 |Alipay swipe card|Alipay Offline Payment|
 |800201  |Wechat pre order|Wechat Online Payment|
@@ -84,6 +84,7 @@ Response:
 
 + 4. /reversal-----------Only applicable for offline situation.
 When the payment failed, it will close the order.
+
 When the payment is successful,then refund the payment and close the order.
 
 | Field Name    |Required  | Description    | 
