@@ -39,8 +39,6 @@ i.Revoke Alipay order,even through the successfuly paid order,will revoke and re
 ii,Close Wechat order will only
 close the unfinished order.Successfuly paid order can not be closed,it will return a failure code.
 
-iii.For 800207(Wechat H5),it will need both wechant merchant account and wechat official account, and the registered company of merchant account and offical account should be the same.Right now, it is not temporarily not available.   
-
 Response:
 ```javascript
 {"sysdtm": "2016-12-16 15:53:18", "resperr": "", "respmsg": "OK", "out_trade_no": "XXX", "syssn": "XXX", "respcd": "0000", "pay_url": "XXX"}
