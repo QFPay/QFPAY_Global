@@ -13,7 +13,7 @@
 | pay_type |Payment type|Y | | 800208|
 | out_trade_no |Reference number| Y| |1470020842103 |
 | txdtm |Payment time| Y | |2016-08-01 11:07:22|
-| txamt |Payment amount,unit is the minimum unit of the currency.| 1470020842103| | 10|
+| txamt |Payment amount,unit is the minimum unit of the currency.If 1 HKD, txamt is 100|| | 10|
 | udid |Device unique id| | | |
 | auth_code |Authentication code.It is used for offline scene only.| | | |
 | openid || | | |
