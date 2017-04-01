@@ -5,7 +5,9 @@
  
  One appcode can only correspond to one notify and one return URL, even through one merchant have multiple payment types.(For example ,one merchant has both Alipay and Wechat payment type,merchant can not set two notify and two return URL separately.)
  
- Testing sites:http://bartforfun.oicp.io/
+ Testing sites:
+ 
+ http://bartforfun.oicp.io/
  
  Test parameters:
  
