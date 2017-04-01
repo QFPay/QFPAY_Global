@@ -1,9 +1,19 @@
 # 2.Payment(/trade/v1)
- This payment API only applicable for Chinese mainland E-wallet.
+ This payment API only applicable for Chinese mainland E-wallet only!.
  
  This payment API can not be used in a mobile phone app development.
  
  One appcode can only correspond to one notify and one return URL, even through one merchant have multiple payment types.(For example ,one merchant has both Alipay and Wechat payment type,merchant can not set two notify and two return URL separately.)
+ 
+ Testing sites:http://bartforfun.oicp.io/
+ 
+ Test parameters:
+ 
+Mchid: eqqmYMn0Zj6pncw5ZDxjgMqbzV
+
+Appcode: 123456
+
+Key: 123456
  
 + 1. /payment---------------Open a payment
 
@@ -19,6 +29,7 @@
 | openid || | | |
 | product_name|product name/good name| | | |
 | lnglat |Latitude,longtitude,format is "12.34 56.78",latitude in the front,demlit by one space| | | |
+|valid_time|Order valid time||At least 300s(5mins)||
 
 Pay_type has the following parameters:
 
