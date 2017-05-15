@@ -34,6 +34,7 @@ Note：800151,800152,800201 is for online scene.800108,800208 is for offline sce
 |800108 |Alipay swipe card|Alipay Offline Payment|
 |800201  |Wechat pre order|Wechat Online Payment|
 |800208  |Wechat swipe card|Wechat Offline Payment|
+|800207  |Wechat H5|Wechat offical account payment|
 
 Attention:Alipay and Wechat have some difference!!
 
