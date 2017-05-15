@@ -1,9 +1,11 @@
 # 2.Payment(/trade/v1)
  This payment API only applicable for Chinese mainland E-wallet only!.
  
- This payment API can not be used in a mobile phone app development.
+ This payment API can not be used in a mobile phone app development.（No SDK provided）
  
  One appcode can only correspond to one notify and one return URL, even through one merchant have multiple payment types.(For example ,one merchant has both Alipay and Wechat payment type,merchant can not set two notify and two return URL separately.)
+ 
+ Example PHP code is in code folder
  
  
  
