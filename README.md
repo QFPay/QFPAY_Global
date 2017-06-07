@@ -28,7 +28,7 @@ Note:This API has no sandbox enviroment, please be noted.
 * 6.Pre order result notification
 * 7.Pre order notification
 
-## [3.OAuth authorization(/oauth/v2)](https://github.com/linan0828/QFPAY_Oversea/blob/master/3_OAuth authorization.md)
+## [3.OAuth authorization(/oauth/v2)](https://github.com/linan0828/QFPAY_Oversea/blob/master/3_OAuth%20authorization.md)
 * 1./authorize-------User authorization
 * 2./access_token---Get/Refresh access_token
 
