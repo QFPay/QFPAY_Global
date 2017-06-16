@@ -79,3 +79,5 @@
 
 
 ## [2.Example Code](https://github.com/linan0828/QFPAY_Oversea/tree/master/Code)
+
+## [3.Common Questions](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Common%20Questions.docx)
