@@ -1,1 +1,0 @@
-Partner_transaction_id|Amount|Rmb_amount|Fee|Settlement|Rmb_settlement|Currency|Rate|Payment_time|Settlement_time|Type|Status|Remarks
