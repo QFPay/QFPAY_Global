@@ -1,1 +1,0 @@
-Time|Settlement_time|Transaction_ID|Partner_transaction_ID|Gross_amount|Rmb_Gross_amount|Distribute_amount|Rmb_Distribute_amount|Settlement|Rmb_settlement|Fee|Rmb_fee|M_Discount_amount|M_Discount_RMB_amount|Currency|Rate|Goods_title|Product|Type|Status|Liquidation|Remarks
