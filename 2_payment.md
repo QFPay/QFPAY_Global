@@ -30,6 +30,8 @@
 Pay_type has the following parameters:
 
 Note：800151,800152,800201 is for online scene.800108,800208 is for offline scene.
+![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/QFPayAPI.jpeg)
+
 
 |Pay_type | Type of payment   |Comments |
 | ------------- |:-------------:|:-------------:| 
