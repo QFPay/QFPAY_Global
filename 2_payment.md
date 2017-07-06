@@ -1,4 +1,15 @@
 # 2.Payment(/trade/v1)
+What is QFPay_Oversea API?
+
+![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/HowQFPayWorks.jpeg)
+
+Level1：
+It is visible to merchant.
+
+Level2:
+It is not visible to merchant,QFPay encapsulates the logic behind it.
+So one pair of parameter can use be both used in Alipay and Wechat.
+
  This payment API only applicable for Chinese mainland E-wallet only!.
  
  This payment API can not be used in a mobile phone app development.（No SDK provided）
