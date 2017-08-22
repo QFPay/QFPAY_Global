@@ -16,6 +16,27 @@ So one pair of parameter can use be both used in Alipay and Wechat.
  
  One appcode can only correspond to one notify and one return URL, even through one merchant have multiple payment types.(For example ,one merchant has both Alipay and Wechat payment type,merchant can not set two notify and two return URL separately.)
  
+ Normal development process：
+ 
+ 1.Apply Wechat and Alipay account from Qfpay.
+ 
+2.Qfpay provides appcode,key,mchid to merchant.
+
+3.Merchant use Qfpay parameters to do the development.
+
+4.Based on merchant application to Qfpay, merchant can use Wechat or Alipay payment based on pay_type.
+If the pay_type is not available, it will show filter_error(获取用户支付通道失败)
+
+5.Give Qfpay callback and return URL for online payment.
+
+6.If merchant uses Wechat official account payment, fill in(公众号信息_钱方+微信公众号支付绑定申请表) 
+
+
+
+Notes:
+1. one Qfpay mchid can at most consist one mch_id from Wechat(online+offline) ,two PID from Alipay(online+offline)
+
+ 
  [Test link](http://bartforfun.oicp.io:8080/QFPayOverseaQiantai/)
  
  [Example PHP code](https://github.com/linan0828/QFPAY_Oversea/tree/master/Code/PHP)
