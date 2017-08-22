@@ -29,8 +29,8 @@ If the pay_type is not available, it will show filter_error(获取用户支付�
 
 5.Give Qfpay callback and return URL for online payment.
 
-6.If merchant uses Wechat official account payment, fill in(公众号信息_钱方+微信公众号支付绑定申请表) 
-
+6.If merchant uses Wechat official account payment, fill in
+[公众号信息_钱方+微信公众号支付绑定申请表](https://github.com/linan0828/QFPAY_Oversea/tree/master/Contents/Wechat/OA)
 
 
 Notes:
