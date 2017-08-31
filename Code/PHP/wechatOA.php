@@ -58,7 +58,7 @@ $fields = array(
 'out_trade_no' => urlencode(),
 'pay_type' => urlencode(800207),
 'sub_openid' => $OpenId,
-'txamt' => urlencode(69000),
+'txamt' => urlencode(),
 'txdtm' => $now_time 
 );
 ksort($fields); //字典排序 A-Z 升序台式
