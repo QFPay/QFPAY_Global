@@ -27,10 +27,7 @@
 	  'out_trade_no' => urlencode(GetRandStr(20)),
 	  'pay_type' => urlencode(800151),
 	  'txamt' => urlencode(10),
-	  'txdtm' => $now_time,  
-		'total_amt' => 12,
-		'pay_amt' => 12,
-		'goods_name' =>  'test',
+	  'txdtm' => $now_time
     );
     ksort($fields); //字典排序A-Z升序方式
     print_r($fields);
