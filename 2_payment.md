@@ -54,7 +54,7 @@ Notes:
 | txamt |Payment amount,unit is the minimum unit of the currency.If 1 HKD, txamt is 100|Y| | 10|
 | udid |Device unique id| | | |
 | auth_code |Authentication code.It is used for offline scene only when do the payment.Usually 18 bits| | | |
-| sub_openid || | | |
+| sub_openid |Only for Wechat OA account payment| | | |
 | product_name|product name/good name| | | |
 | lnglat |Latitude,longtitude,format is "12.34 56.78",latitude in the front,demlit by one space| | | |
 |valid_time|Order valid time||At least 300s(5mins)||
