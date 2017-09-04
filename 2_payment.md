@@ -81,6 +81,18 @@ i.Revoke Alipay order,even through the successfuly paid order,will revoke and re
 ii,Close Wechat order will only
 close the unfinished order.Successfuly paid order can not be closed,it will return a failure code.
 
+iii.In most situation, development just need to implement the following interface:
+
+1.payment
+
+2.offline:reverse and refund
+
+  online:close and refund
+  
+3.query
+
+4.settlement
+
 Response:
 ```javascript
 {"sysdtm": "2016-12-16 15:53:18", "resperr": "", "respmsg": "OK", "out_trade_no": "XXX", "syssn": "XXX", "respcd": "0000", "pay_url": "XXX"}
@@ -126,6 +138,8 @@ Response:
 When the payment failed, it will close the order.
 
 When the payment is successful,then refund the payment and close the order.
+
+
 
 | Field Name    |Required  | Description    | 
 | ------------- |:-------------:| ---------:|
