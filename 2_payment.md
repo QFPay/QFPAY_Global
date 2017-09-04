@@ -119,7 +119,7 @@ Response:
 | txamt |Y|amount|
 | txdtm |Y|request side time|
 |udid  |N|device only id|
-|Mchid  ||The code return by signup interface.|
+|Mchid  |Y||
 
 Response:
 ```javascript
