@@ -44,12 +44,12 @@ If the pay_type is not available, it will show filter_error(获取用户支付�
 
 
 Notes:
-1. one Qfpay mchid can at most consist one mch_id from Wechat(online+offline) ,two PID from Alipay(online+offline)
+
 
  
- [Test link](http://bartforfun.oicp.io:8080/QFPayOverseaQiantai/)
+ [Test link](http://bartforfun.oicp.io:8080/QFPayOverseaQiantai/) :For testing parameters is right or wrong.
  
- [Example PHP code](https://github.com/linan0828/QFPAY_Oversea/tree/master/Code/PHP)
+ [Example PHP code](https://github.com/linan0828/QFPAY_Oversea/tree/master/Code/PHP):It has test parameters and code.
  
  
  
