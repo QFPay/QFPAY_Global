@@ -7,9 +7,9 @@ QFPay person helps to do the backend configuration.
 
 So Merchant can just change payment type to do various type of payment.
 
-In Alipay,one merchant linkes to one or two PID(Partner Identification ID).One PID can only be Online or Offline.
+For Alipay,one merchant linkes to one or two PID(Partner Identification ID).One PID for online,one PID for offline.
 
-In Wechat,one merchant linkes to mchid(Merchant ID).One mchid can be both Online or Offline.
+For Wechat,one merchant linkes to mchid(Merchant ID).One mchid can be both Online or Offline.
 
 ![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/HowQFPayWorks.jpeg)
 
