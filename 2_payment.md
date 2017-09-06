@@ -5,7 +5,7 @@ Merchant applies Wechat and Alipay from QFPay.
 
 QFPay person helps to do the backend configuration.
 
-So Merchant can just change payment type to do various type of payment.
+So Merchant can just change the payment type to do various type of payment.
 
 For Alipay,one merchant linkes to one or two PID(Partner Identification ID).One PID for online,one PID for offline.
 
