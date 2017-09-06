@@ -1,6 +1,11 @@
 # 2.Payment(/trade/v1)
 What is QFPay_Oversea API?
 
+Merchant applies Wechat and Alipay from QFPay.QFPay person helps to do the backend configuration.
+So Merchant can just change payment type to do various type of payment.
+In Alipay,one merchant linkes to one PID(Partner Identification ID).One PID can only be Online or Offline.
+In Wechat,one merchant linkes to mchid(Merchant ID).One mchid can be both Online or Offline.
+
 ![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/HowQFPayWorks.jpeg)
 
 Level1：
