@@ -57,11 +57,11 @@ Notes:
 
 | Field Name    | Description   | Required  | Notes 	 | Example  |
 | ------------- |:-------------:| ---------:| ----------:| --------:|
-|Mchid  |The code return by signup interface|Y| |BvDtmKJA5mx7GpN0 |
-| pay_type |Payment type|Y | | 800208|
+|mchid  |QFPay mchid|Y|Do not confuse with Wechat mchid, they are totally different!|BvDtmKJA5mx7GpN0 |
+| pay_type |Payment type|Y| | 800208|
 | out_trade_no |Reference number|Y| |1470020842103 |
 | txdtm |Payment time| Y | |2016-08-01 11:07:22|
-| txamt |Payment amount,unit is the minimum unit of the currency.If 1 HKD, txamt is 100|Y| | 10|
+| txamt |Payment amount|Y|Unit is the minimum unit of the currency.If 1 HKD, txamt is 100 | 10|
 | auth_code |Authentication code.| |It is only used for offline scene.When do the payment offline, it is must be passed in.The length is usually 18 bits long.The length may change in the future. | |
 | sub_openid |Only for Wechat OA account payment| | | |
 | product_name|product name/good name| | | |
