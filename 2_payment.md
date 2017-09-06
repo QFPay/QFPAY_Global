@@ -52,11 +52,9 @@ Notes:
 | out_trade_no |Reference number|Y| |1470020842103 |
 | txdtm |Payment time| Y | |2016-08-01 11:07:22|
 | txamt |Payment amount,unit is the minimum unit of the currency.If 1 HKD, txamt is 100|Y| | 10|
-| udid |Device unique id| | | |
 | auth_code |Authentication code.| |It is only used for offline scene.When do the payment offline, it is must be passed in.The length is usually 18 bits long.The length may change in the future. | |
 | sub_openid |Only for Wechat OA account payment| | | |
 | product_name|product name/good name| | | |
-| lnglat |Latitude,longtitude,format is "12.34 56.78",latitude in the front,demlit by one space| | | |
 |valid_time|Order valid time||At least 300s(5mins)||
 
 Pay_type has the following parameters:
