@@ -223,10 +223,10 @@ Refund:
 ``` 
 Query_Refund_Orig:   
 ```javascript
-{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:09:09", "order_type": "refund", "txcurrcd": "", "txdtm": "2017-09-06 15:09:08", "txamt": "10", "out_trade_no": "98654216", "syssn": "201709060901990042326683", "cancel": "0", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
-```          
+{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:07:47", "order_type": "payment", "txcurrcd": "", "txdtm": "2017-09-06 15:07:46", "txamt": "10", "out_trade_no": "98654216", "syssn": "201709060902990042326663", "cancel": "2", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
+```
 Query_Refund_New:   
 ```javascript
-{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:07:47", "order_type": "payment", "txcurrcd": "", "txdtm": "2017-09-06 15:07:46", "txamt": "10", "out_trade_no": "98654216", "syssn": "201709060902990042326663", "cancel": "2", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
-```       
+{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:09:09", "order_type": "refund", "txcurrcd": "", "txdtm": "2017-09-06 15:09:08", "txamt": "10", "out_trade_no": "98654216", "syssn": "201709060901990042326683", "cancel": "0", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
+```          
 
