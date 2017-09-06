@@ -123,18 +123,6 @@ Response:
 |udid  |N|device only id|
 |Mchid  |Y||
 
-Response:
-```javascript
-{
-    "orig_syssn": "201607280901020011216135",
-    "respmsg": "",
-    "txdtm": "2016-07-28 14:13:50",
-    "txamt": "1",
-    "out_trade_no": "1469686430937",
-    "sysdtm": "2016-07-28 14:13:51",
-    "syssn": "201607280901020011216137",
-}
-```
 
 + 4. /reversal-----------Only applicable for offline situation.
 When the payment failed, it will close the order.
@@ -151,18 +139,7 @@ When the payment is successful,then refund the payment and close the order.
 |txdtm|Y||transaction time|
 |txamt|Y||transaction amount|
 |udid||Device only id|
-Response:
-```javascript
-{
-    "orig_syssn": "201607280901020011216135",
-    "respmsg": "",
-    "txdtm": "2016-07-28 14:13:50",
-    "txamt": "1",
-    "out_trade_no": "1469686430937",
-    "sysdtm": "2016-07-28 14:13:51",
-    "syssn": "201607280901020011216137",
-}
-```
+
 
 + 5. /query------------query an order
 
@@ -182,28 +159,7 @@ Response:
 Note:
 If use start_time and end_time for query, syssn and out_trade_no can be ignored.
 
-Response:
-```javascript
-{
-    "respcd": "0000",
-    "respmsg": "", 
-    "page": 1,
-    "page_size": 10,
-    "data": [{
-        "pay_type": "800201",
-        "sysdtm": "2016-07-26 17:02:01",
-        "order_type": "payment",
-        "txcurrcd": "HKD", 
-        "txdtm": "2016-07-26 17:02:01",
-        "txamt": "1",
-        "out_trade_no": "1469523721486",
-        "syssn": "201607260901020011216001",
-        "cancel": "2",
-        "respcd": "1142",
-        "errmsg": ""
-    }]
-}
-```
+
 
 
 + 6. /Pre order notification
@@ -237,4 +193,37 @@ For Alipay online payment, after the transaction, it will redirect to the return
 | udid |Device unique id| | | |
 |respcd|Respond code|||0000|
 |respmesg|Respond message||||
+
+Payment:
+```javascript
+{"pay_type": "800208", "out_trade_no": "57003579", "cardcd": "oKeGJuIhEWuWZQPdXFBkXdgr5nLc", "txdtm": "2017-09-06 14:56:43", "resperr": "", "txamt": "10", "respmsg": "ok", "sysdtm": "2017-09-06 14:56:43", "syssn": "201709060902990042326492", "txcurrcd": "HKD", "respcd": "0000", "code_url": ""}
+```
+Query_Payment: 
+```javascript
+{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 14:56:43", "order_type": "payment", "txcurrcd": "", "txdtm": "2017-09-06 14:56:43", "txamt": "10", "out_trade_no": "57003579", "syssn": "201709060902990042326492", "cancel": "0", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
+```  
+Reversal:
+```javascript
+{"resperr": "", "sysdtm": "2017-09-06 15:00:35", "orig_syssn": "201709060902990042326492", "respmsg": "ok", "out_trade_no": "57003579", "syssn": "201709060902990042326548", "respcd": "0000"}
+``` 
+Query_Reversal_Orig:   
+```javascript
+{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 14:56:43", "order_type": "payment", "txcurrcd": "", "txdtm": "2017-09-06 14:56:43", "txamt": "10", "out_trade_no": "57003579", "syssn": "201709060902990042326492", "cancel": "1", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
+``` 
+Query_Reversal_New:   
+```javascript
+{"respmsg": "", "resperr": "", "respcd": "0000", "data": [], "page": 1, "page_size": 10}
+```  
+Refund: 
+```javascript
+{"resperr": "", "txdtm": "2017-09-06 15:09:08", "txamt": "10", "respmsg": "ok", "out_trade_no": "98654216", "syssn": "201709060901990042326683", "respcd": "0000", "sysdtm": "2017-09-06 15:09:09", "orig_syssn": "201709060902990042326663"}
+``` 
+Query_Refund_Orig:   
+```javascript
+{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:09:09", "order_type": "refund", "txcurrcd": "", "txdtm": "2017-09-06 15:09:08", "txamt": "10", "out_trade_no": "98654216", "syssn": "201709060901990042326683", "cancel": "0", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
+```          
+Query_Refund_New:   
+```javascript
+{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:07:47", "order_type": "payment", "txcurrcd": "", "txdtm": "2017-09-06 15:07:46", "txamt": "10", "out_trade_no": "98654216", "syssn": "201709060902990042326663", "cancel": "2", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
+```       
 
