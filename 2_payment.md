@@ -194,6 +194,9 @@ For Alipay online payment, after the transaction, it will redirect to the return
 |respcd|Respond code|||0000|
 |respmesg|Respond message||||
 
+
+Example Response：
+
 Payment:
 ```javascript
 {"pay_type": "800208", "out_trade_no": "57003579", "cardcd": "oKeGJuIhEWuWZQPdXFBkXdgr5nLc", "txdtm": "2017-09-06 14:56:43", "resperr": "", "txamt": "10", "respmsg": "ok", "sysdtm": "2017-09-06 14:56:43", "syssn": "201709060902990042326492", "txcurrcd": "HKD", "respcd": "0000", "code_url": ""}
