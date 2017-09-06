@@ -83,6 +83,8 @@ close the unfinished order.Successfuly paid order can not be closed,it will retu
 
 iii.In most situation, development just need to implement the following interface:
 
+iv.1145 problem means it is in pending state.Please wait another 5 seconds to do the query to confirm the transaction status.
+
 1.payment
 
 2.offline:reverse and refund
