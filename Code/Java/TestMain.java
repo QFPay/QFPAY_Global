@@ -16,7 +16,7 @@ public class TestMain {
         String date=df.format(new Date());
         String txdtm=date;
         String txamt="10";
-         //如果是国内钱台，产品名称对应的字段是goods_name，不是product_name..
+         //如果是国内钱台，产品名称对应的字段是goods_name，不是product_name.
         String product_name="Test Name";
 
 
@@ -34,6 +34,7 @@ public class TestMain {
         String md5Sum=QFPayUtils.getMd5Value(data+key);
         System.out.println("Md5 Value:\n"+md5Sum);
 
+         //如果是国内钱台，网址是：https://openapi-test.qfpay.com.
         String url="https://osqt.qfpay.com/trade/v1";
         String resp= Requests.sendPostRequest(url+"/payment", data, appcode,key);
         System.out.println(resp);
