@@ -10,6 +10,7 @@ public class TestMain {
         String key="123456";
         String mchid="eqqmYMn0Zj6pncw5ZDxjgMqbzV";
 
+         //如果是国内钱台，pay_type和海外版本不同.
         String pay_type="800151";
         String out_trade_no=String.valueOf(Math.random()*100);
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
