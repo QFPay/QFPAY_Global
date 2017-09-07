@@ -16,6 +16,7 @@ public class TestMain {
         String date=df.format(new Date());
         String txdtm=date;
         String txamt="10";
+         //如果是国内钱台，产品名称对应的字段是goods_name，不是product_name..
         String product_name="Test Name";
 
 
