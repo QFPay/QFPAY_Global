@@ -1,5 +1,3 @@
-package qfpay;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,11 +7,11 @@ import java.net.URL;
 import java.net.URLConnection;
 
 
- public class Requests{
+public class Requests{
     public static String sendPostRequest(String inputURL,String data,String appcode,String key) {
-    	String resp="";
+        String resp="";
         try {
-        	
+
             // Send the request
             URL url = new URL(inputURL);
             URLConnection conn = url.openConnection();
@@ -21,8 +19,8 @@ import java.net.URLConnection;
             conn.setRequestProperty("Accept-Charset", "utf-8");
             conn.setRequestProperty("X-QF-APPCODE", appcode);
             conn.setRequestProperty("X-QF-SIGN",QFPayUtils.getMd5Value(data+key));
-            
-            
+
+
             OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
 
             //write parameters
@@ -40,18 +38,18 @@ import java.net.URLConnection;
             reader.close();
 
             resp=answer.toString();
-         
-            
+
+
 
         } catch (MalformedURLException ex) {
             ex.printStackTrace();
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-		return resp;
-        
-	
-      
+        return resp;
+
+
+
     }
-	
+
 }
