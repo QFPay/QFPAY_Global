@@ -60,11 +60,12 @@
 
   //$final_data = json_decode($output, true);
   
-  //Wechat: Change this String to a QR code
+  //Wechat800201: Change this String to a QR code
   //header("Location:".$final_data["qrcode"]);
   
-  //Alipay:Click this link to finish payment.
+  //Alipay800151/800152:Click this link to finish payment.
   //header("Location:".$final_data["pay_url"]);
- 
+
+  
   ?>
   
