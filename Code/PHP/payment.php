@@ -57,9 +57,14 @@
  
   //打印結果信息 
   header('Content-type:text/json'); 
-  $final_data = json_decode($output, true); 
-  //print_r($final_data["out_trade_no"])
-  header("Location:".$final_data["pay_url"]);
+
+  //$final_data = json_decode($output, true);
+  
+  //Wechat: Change this String to a QR code
+  //header("Location:".$final_data["qrcode"]);
+  
+  //Alipay:Click this link to finish payment.
+  //header("Location:".$final_data["pay_url"]);
  
   ?>
   
