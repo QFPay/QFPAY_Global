@@ -109,14 +109,16 @@ Response:
 
 
 + 4. /reversal-----------Only applicable for offline situation.
+
 When in offline situation, there are network problems, use this interface.
+
 | Field Name    |Required  | Description    | 
 | ------------- |:-------------:| ---------:|
-| mchid |Y| The code return by signup interface.|
-|syssn|Y||transaction serial number|
-|out_trade_no|Y||external order number|
-|txdtm|Y||transaction time|
-|txamt|Y||transaction amount|
+| mchid |Y| |
+|syssn|Y|transaction serial number|
+|out_trade_no|Y|external order number|
+|txdtm|Y|transaction time|
+|txamt|Y|transaction amount|
 
 + 5. /query------------query an order
 |Field Name|Required|Description|Example
