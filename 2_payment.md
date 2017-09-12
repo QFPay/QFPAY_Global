@@ -121,6 +121,7 @@ When in offline situation, there are network problems, use this interface.
 |txamt|Y|transaction amount|
 
 + 5. /query------------query an order
+
 |Field Name|Required|Description|Example
 | ------------- |:-------------:| ---------:|---------:|
 | mchid |Y| |BvDtmKJA5mx7GpN0
