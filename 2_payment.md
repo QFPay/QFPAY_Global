@@ -61,13 +61,15 @@ Notes:
 | txdtm |Payment time| Y | |2016-08-01 11:07:22|
 | txamt |Payment amount|Y|Unit is the minimum unit of the currency.If 1 HKD, txamt is 100 | 10|
 | auth_code |Authentication code.| |Must pass in with offline(800108,800208).The length is usually 18 bits long.The length may change in the future. | |
-| sub_openid |Must pass in with Wechat OA account payment(800207)| | | |
+| sub_openid |Wechat sub_openid| | Must pass in with Wechat OA account payment(800207)| |
 | product_name|product name/good name| | | |
-|valid_time|Order valid time||At least 300s(5mins)||
+|valid_time|Order valid time||At least 300s(5mins),only for online payment scene.||
 
 Pay_type has the following parameters:
 
-Note：800151,800152,800201,800207 are for online scene.800108,800208 are for offline scene.
+Note：800151,800152,800201,800207 are for online scene.
+
+800108,800208 are for offline scene.
 ![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/QFPayAPI.jpeg)
 
 
@@ -80,27 +82,6 @@ Note：800151,800152,800201,800207 are for online scene.800108,800208 are for of
 |800208  |Wechat swipe card|For bar code scanning gun in a store|
 |800207  |Wechat H5|In Wechat browser|
 
-Attention:Alipay and Wechat have some difference!!
-
-i.Revoke Alipay order,even through the successfuly paid order,will revoke and refund.
-
-ii,Close Wechat order will only
-close the unfinished order.Successfuly paid order can not be closed,it will return a failure code.
-
-iii.In most situation, development just need to implement the following interface:
-
-iv.1145 problem means it is in pending state.Please wait another 5 seconds to do the query to confirm the transaction status.
-
-1.payment
-
-2.offline:reverse and refund
-
-  online:close and refund
-  
-3.query
-
-4.settlement
-
 Response:
 ```javascript
 {"sysdtm": "2016-12-16 15:53:18", "resperr": "", "respmsg": "OK", "out_trade_no": "XXX", "syssn": "XXX", "respcd": "0000", "pay_url": "XXX"}
@@ -108,15 +89,13 @@ Response:
 
 + 2.  /close--------------close the order(Only applicable for Online payment)
 
-| Field Name    | Description   | Required  | Notes 	 | Example  |
-| ------------- |:-------------:| ---------:| ----------:| --------:|
-|mchid  |The code return by signup interface| |If not fill in |BvDtmKJA5mx7GpN0 |
-|syssn|transaction serial number|||201607280901020011216135|
-|out_trade_no|external order number|||1470020842103|
-| txdtm |transaction time| | | |
-| txamt |transaction amount| | | 10|
-| udid|| | | |
-
+| Field Name    | Description   | Required  |  Example  |
+| ------------- |:-------------:| ---------:|  --------:|
+|mchid  |The code return by signup interface|Y|BvDtmKJA5mx7GpN0 |
+|syssn|transaction serial number|out_trade_no or syssn must be passed in|201607280901020011216135|
+|out_trade_no|external order number||1470020842103|
+| txdtm |transaction time|Y | |
+| txamt |transaction amount|Y  | 10|
 
 + 3.  /refund ------------refund the money
  
