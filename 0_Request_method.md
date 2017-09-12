@@ -1,6 +1,7 @@
 # 0.Request method   
 
- ##1. How to do signature                                  
+
+## 1. How to do signature                                  
   + 1.All non-empty parameters will be sorted in ascending order.
   + 2.Concatenate all the parameters using & to get the string
   + 3.Append the string with developer’s application key 
