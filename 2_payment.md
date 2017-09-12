@@ -105,17 +105,11 @@ Response:
 |out_trade_no  |Y|refund number,not the original transaction number.|
 | txamt |Y|amount|
 | txdtm |Y|request side time|
-|udid  |N|device only id|
-|Mchid  |Y||
+|mchid  |Y||
 
 
 + 4. /reversal-----------Only applicable for offline situation.
-When the payment failed, it will close the order.
-
-When the payment is successful,then refund the payment and close the order.
-
-
-
+When in offline situation, there are network problems, use this interface.
 | Field Name    |Required  | Description    | 
 | ------------- |:-------------:| ---------:|
 | mchid |Y| The code return by signup interface.|
@@ -123,15 +117,11 @@ When the payment is successful,then refund the payment and close the order.
 |out_trade_no|Y||external order number|
 |txdtm|Y||transaction time|
 |txamt|Y||transaction amount|
-|udid||Device only id|
-
 
 + 5. /query------------query an order
-
-
 |Field Name|Required|Description|Example
 | ------------- |:-------------:| ---------:|---------:|
-| mchid |Y| It returns from signup interface|BvDtmKJA5mx7GpN0
+| mchid |Y| |BvDtmKJA5mx7GpN0
 | syssn ||Transaction serial number,it supports batch query,use "," to delimit mutliple syssn |201607280901020011216135,201607280901020011216136
 | out_trade_no ||out_trade_number,it supports batch query,use "," to delimit mutliple out_trade_number|1470020842103,1470020842104 
 | pay_type || Payment type,it supports batch query,use "," to delimit mutliple pay_type|800201,800208
