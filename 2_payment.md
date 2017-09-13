@@ -63,7 +63,7 @@ Notes:
 | auth_code |Authentication code.| |Must pass in with offline(800108,800208).The length is usually 18 bits long.The length may change in the future. | |
 | sub_openid |Wechat sub_openid| | Must pass in with Wechat OA account payment(800207)| |
 | product_name|product name/good name| | | |
-|valid_time|Order valid time||At least 300s(5mins),only for online payment scene.The number should be in 300s interval.Like 300s,600s,900s,etc||
+|valid_time|Order valid time||At least 300s(5mins),only for online payment scene.The number should be in 300s interval.Like 300s,600s,900s,etc|300|
 
 Pay_type has the following parameters:
 
