@@ -82,11 +82,6 @@ Note：800151,800152,800201,800207 are for online scene.
 |800208  |Wechat swipe card|For bar code scanning gun in a store|
 |800207  |Wechat H5|In Wechat browser|
 
-Response:
-```javascript
-{"sysdtm": "2016-12-16 15:53:18", "resperr": "", "respmsg": "OK", "out_trade_no": "XXX", "syssn": "XXX", "respcd": "0000", "pay_url": "XXX"}
-```
-
 + 2.  /close--------------close the order(Only applicable for Online payment)
 
 | Field Name    | Description   | Required  |  Example  |
