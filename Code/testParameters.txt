@@ -1,3 +1,6 @@
 appcode = '123456'
 key = '123456'
 mchid = 'eqqmYMn0Zj6pncw5ZDxjgMqbzV'
+
+Put the above parameters to the following website, to get a better idea of QFPay API.
+http://bartforfun.oicp.io:8080/QFPayOverseaQiantai/
