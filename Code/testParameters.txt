@@ -1,0 +1,3 @@
+appcode = '123456'
+key = '123456'
+mchid = 'eqqmYMn0Zj6pncw5ZDxjgMqbzV'
