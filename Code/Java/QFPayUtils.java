@@ -5,8 +5,20 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
 
-//Generate MD5 signature using hexadecimal format.
+/* 
+This class is the utility for QFPay Payment API. 
+Note:This is just an example.
+
+getMd5Value:
+After do the string manipulation, like:abc=value&bad=value&bcd=valueKey
+This method generates MD5 signature using hexadecimal format.
+
+getDataString:
+This method pass in with the map, and generate the string like:abc=value&bad=value&bcd=value.
+
+*/
 public class QFPayUtils {
+    
     public static String getMd5Value(String input) {
         try {
             java.security.MessageDigest md = java.security.MessageDigest.getInstance("MD5");
@@ -21,7 +33,7 @@ public class QFPayUtils {
         }
     }
 
-    //	Generate Pre-signed string for MD5 signature。
+   
     public static <T> String getDataString(Map resultMap) {
         Map<String, String> map = new TreeMap<String, String>(
                 new Comparator<String>() {
