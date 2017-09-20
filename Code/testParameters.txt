@@ -2,5 +2,7 @@ appcode = '123456'
 key = '123456'
 mchid = 'eqqmYMn0Zj6pncw5ZDxjgMqbzV'
 
+800152 and 800207： Not applicable for this testing account
+
 Put the above parameters to the following website, to get a better idea of QFPay API.
 http://bartforfun.oicp.io:8080/QFPayOverseaQiantai/
