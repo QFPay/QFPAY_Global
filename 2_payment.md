@@ -69,8 +69,8 @@ Pay_type has the following parameters:
 
 Note：800151,800152,800201,800207 are for online scene.
 
-800108,800208 are for offline scene.
-![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/QFPayAPI.jpeg)
+800108,800208,800228 are for offline scene.
+![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/Flow.jpeg)
 
 
 |Pay_type | Type of payment   |Comments |
@@ -80,6 +80,7 @@ Note：800151,800152,800201,800207 are for online scene.
 |800108  |Alipay swipe card|For bar code scanning gun in a store|
 |800201  |Wechat pre order|In a PC-based website|
 |800208  |Wechat swipe card|For bar code scanning gun in a store|
+|800228  |Wechat HK swipe card|For bar code scanning gun in a store|
 |800207  |Wechat H5|In Wechat browser|
 
 + 2.  /close--------------close the order(Only applicable for Online payment)
