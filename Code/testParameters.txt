@@ -1,8 +1,14 @@
-appcode = '123456'
-key = '123456'
-mchid = 'eqqmYMn0Zj6pncw5ZDxjgMqbzV'
+800151,800108,800152,800201,800208 use the following parameters：
+appcode:123456
+key:123456
+mchid:eqqmYMn0Zj6pncw5ZDxjgMqbzV
 
-800152 and 800207： Not applicable for this testing account
+800228（HK Wechat Wallet）use the following parameters：
+appcode:D6807A9A6C654E4AB2D1A162831DBA5D
+key:64E833CD7FCD412CA609E020F717FF10
+mchid:k4j36qpRdzj9OTbW4OP0Od2g59
+
+800207: no testing account provided.
 
 Put the above parameters to the following website, to get a better idea of QFPay API.
 http://bartforfun.oicp.io:8080/QFPayOverseaQiantai/
