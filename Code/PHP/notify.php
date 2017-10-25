@@ -20,6 +20,7 @@
   $sign = '';
   $sign = strtoupper(md5($fields_string . $app_key));
   
+//qf_sign means the md5 value from response header.Note:product_name is not in notify url.
   if($sign != $qf_sign){
       echo '签名错误';
   }else{
