@@ -171,36 +171,32 @@ For Alipay online payment, after the transaction, it will redirect to the return
 
 Example Response：
 
-Payment:
+Do Payment:
 ```javascript
 {"pay_type": "800208", "out_trade_no": "57003579", "cardcd": "oKeGJuIhEWuWZQPdXFBkXdgr5nLc", "txdtm": "2017-09-06 14:56:43", "resperr": "", "txamt": "10", "respmsg": "ok", "sysdtm": "2017-09-06 14:56:43", "syssn": "201709060902990042326492", "txcurrcd": "HKD", "respcd": "0000", "code_url": ""}
 ```
-Query_Payment: 
+Query Payment: 
 ```javascript
 {"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 14:56:43", "order_type": "payment", "txcurrcd": "", "txdtm": "2017-09-06 14:56:43", "txamt": "10", "out_trade_no": "57003579", "syssn": "201709060902990042326492", "cancel": "0", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
 ```  
-Reversal:
+Do Reversal:
 ```javascript
 {"resperr": "", "sysdtm": "2017-09-06 15:00:35", "orig_syssn": "201709060902990042326492", "respmsg": "ok", "out_trade_no": "57003579", "syssn": "201709060902990042326548", "respcd": "0000"}
 ``` 
-Query_Reversal_Orig:   
+Query Reversal syssn number:   
 ```javascript
 {"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 14:56:43", "order_type": "payment", "txcurrcd": "", "txdtm": "2017-09-06 14:56:43", "txamt": "10", "out_trade_no": "57003579", "syssn": "201709060902990042326492", "cancel": "1", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
 ``` 
-Query_Reversal_New:   
-```javascript
-{"respmsg": "", "resperr": "", "respcd": "0000", "data": [], "page": 1, "page_size": 10}
-```  
-Refund: 
+Do Refund: 
 ```javascript
 {"resperr": "", "txdtm": "2017-09-06 15:09:08", "txamt": "10", "respmsg": "ok", "out_trade_no": "98654216", "syssn": "201709060901990042326683", "respcd": "0000", "sysdtm": "2017-09-06 15:09:09", "orig_syssn": "201709060902990042326663"}
 ``` 
-Query_Refund_Orig:   
+Query Original Refund syssn number:   
 ```javascript
 {"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:07:47", "order_type": "payment", "txcurrcd": "", "txdtm": "2017-09-06 15:07:46", "txamt": "10", "out_trade_no": "98654216", "syssn": "201709060902990042326663", "cancel": "2", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
 ```
-Query_Refund_New:   
+Query New Refund syssn number:   
 ```javascript
-{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:09:09", "order_type": "refund", "txcurrcd": "", "txdtm": "2017-09-06 15:09:08", "txamt": "10", "out_trade_no": "98654216", "syssn": "201709060901990042326683", "cancel": "0", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
+{"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:09:09", "order_type": "refund", "txcurrcd": "", "txdtm": "2017-09-06 15:09:08", "txamt": "10", "out_trade_no": "98654216", "syssn": "", "cancel": "0", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
 ```          
 
