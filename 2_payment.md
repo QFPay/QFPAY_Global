@@ -11,7 +11,7 @@ For Alipay,one merchant linkes to one or two PID(Partner Identification ID).One 
 
 For Wechat,one merchant linkes to one sub_mchid(Sub Merchant ID).One sub_mchid can be both Online or Offline.Mchid is vendor mchid(QFPay),appid is vendor(QFPay) appid.
 
-![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/HowQFPayWorks.jpeg)
+![image](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/HowQFPayWorks.jpeg)
 
 Level1：
 It is visible to merchant.
@@ -70,7 +70,7 @@ Pay_type has the following parameters:
 Note：800151,800152,800201,800207 are for online scene.
 
 800108,800208,800228 are for offline scene.
-![](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/Flow.jpeg)
+![image](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/Flow.jpeg)
 
 
 |Pay_type | Type of payment   |Comments |
