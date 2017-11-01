@@ -85,6 +85,8 @@ Note：800151,800152,800201,800207 are for online scene.
 
 + 2.  /close--------------close the order(Only applicable for Wechat Online payment，Alipay not applicable.)
 
+Note:The default close time for Alipay online payment is 10 mins,users can set valid_time(close time) for alipay.
+
 | Field Name    | Description   | Required  |  Example  |
 | ------------- |:-------------:| ---------:|  --------:|
 |mchid  |The code return by signup interface|Y|BvDtmKJA5mx7GpN0 |
