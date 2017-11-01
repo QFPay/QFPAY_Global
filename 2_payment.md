@@ -83,7 +83,7 @@ Note：800151,800152,800201,800207 are for online scene.
 |800228  |Wechat HK swipe card|For bar code scanning gun in a store|
 |800207  |Wechat H5|In Wechat browser|
 
-+ 2.  /close--------------close the order(Only applicable for Online payment)
++ 2.  /close--------------close the order(Only applicable for Wechat Online payment，Alipay not applicable.)
 
 | Field Name    | Description   | Required  |  Example  |
 | ------------- |:-------------:| ---------:|  --------:|
