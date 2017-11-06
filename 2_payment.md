@@ -23,6 +23,8 @@ So one pair of parameter can use be both used in Alipay and Wechat.
  This payment API can not be used in a mobile phone app development.（No SDK provided）
  
  One appcode can only correspond to one notify and one return URL, even through one merchant have multiple payment types.(For example ,one merchant has both Alipay and Wechat payment type,merchant can not set two notify and two return URL separately.)
+Wechat:The notify URL is set by QFPay person, return URL is set by the developer.
+Alipay:The return and notify URL are set by QFPay person.
  
  Normal development process：
  
