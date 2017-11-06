@@ -40,8 +40,12 @@ If the pay_type is not available, it will show filter_error(获取用户支付�
 5.Give Qfpay callback and return URL for settting.
 
 6.If merchant uses Wechat official account payment, fill in
-[公众号信息_钱方+微信公众号支付绑定申请表](https://github.com/linan0828/QFPAY_Oversea/tree/master/Contents/Wechat/OA)
+[公众号信息_钱方](https://github.com/QFPay/QFPAY_Oversea/blob/master/Contents/Wechat/OA/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BF%A1%E6%81%AF_%E9%92%B1%E6%96%B9.txt) and
+[公众号支付绑定申请函](https://github.com/QFPay/QFPAY_Oversea/blob/master/Contents/Wechat/OA/%E5%85%AC%E4%BC%97%E5%8F%B7%E6%94%AF%E4%BB%98%E7%BB%91%E5%AE%9A%E7%94%B3%E8%AF%B7%E5%87%BD.doc)
 
+Also watch 
+[Wechat offical account payment English](https://github.com/QFPay/QFPAY_Oversea/blob/master/Contents/Wechat/OA/Wechat%20offical%20account%20payment%20English_171101.docx)
+for more details.
 
 Notes:
 
@@ -73,6 +77,15 @@ Note：800151,800152,800201,800207 are for online scene.
 
 800108,800208,800228 are for offline scene.
 ![image](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/Flow.jpeg)
+
+If customer payment currency is HKD, it means the customer links with a HK ID and a HKD bank account in Hong Kong.
+
+If customer payment currency is RMB, it means the customer links with a China mainland ID and a RMB bank account in mainland China.
+
+If customer payment currency is HKD+RMB, it means the customer can be both China mainland resident and Hong kong resident.
+
+
+
 
 
 |Pay_type | Type of payment   |Comments |
