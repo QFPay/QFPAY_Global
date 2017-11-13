@@ -78,9 +78,9 @@ Note：800151,800152,800201,800207 are for online scene.
 800108,800208,800228 are for offline scene.
 ![image](https://github.com/linan0828/QFPAY_Oversea/blob/master/Contents/Pic/Flow.jpeg)
 
-If customer payment currency is HKD, it means the customer links with a HK ID and a HKD bank account in Hong Kong.
+If customer payment currency is HKD, it means the customer must links with a HK ID and a HKD bank account in Hong Kong.
 
-If customer payment currency is RMB, it means the customer links with a China mainland ID and a RMB bank account in mainland China.
+If customer payment currency is RMB, it means the customer must links with a China mainland ID and a RMB bank account in mainland China.
 
 If customer payment currency is HKD+RMB, it means the customer can be both China mainland resident and Hong kong resident.
 
