@@ -215,5 +215,10 @@ Query Original Refund syssn number:
 Query New Refund syssn number:   
 ```javascript
 {"respmsg": "", "resperr": "", "respcd": "0000", "data": [{"pay_type": "800208", "sysdtm": "2017-09-06 15:09:09", "order_type": "refund", "txcurrcd": "", "txdtm": "2017-09-06 15:09:08", "txamt": "10", "out_trade_no": "98654216", "syssn": "", "cancel": "0", "respcd": "0000", "errmsg": "\u4ea4\u6613\u6210\u529f"}], "page": 1, "page_size": 10}
-```          
+```  
+800201 success response:
+```javascript
+{"pay_type": "800201", "out_trade_no": "622536XX", "txdtm": "2017-11-20 XX:28:02", "resperr": "", "txamt": "10", "respmsg": "ok", "sysdtm": "2017-11-20 XX:28:02", "syssn": "20171120090299001477XXXX", "txcurrcd": "HKD", "qrcode": "weixin://wxpay/bizpayurl?pr=gFkBXXX", "respcd": "0000"}
+```
+Change qrcode response from string to a QR code. 
 
