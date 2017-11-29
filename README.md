@@ -4,7 +4,7 @@ This documentation is for QFPAY oversea （国内钱台用于海外及大陆交�
 
 To invoke the payment interface for example ,the URL is :https://openapi.qfpay.com
 
-Note:This API has no sandbox enviroment, please be noted.
+Note:This API has sandbox enviroment, please be noted.
 ## Glossary
 * appcode：Developer only identification ID.
 * key: Developer key， invoke other interfaces except SDK,include refund，reverse，get OAuth and access token，
