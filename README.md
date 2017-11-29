@@ -1,8 +1,8 @@
 # Table of Contents
 ## Introduction
-This documentation is for QFPAY oversea integration.
+This documentation is for QFPAY oversea （国内钱台用于海外及大陆交易）integration.
 
-To invoke the payment interface for example ,the URL is :https://osqt.qfpay.com/trade/v1/payment
+To invoke the payment interface for example ,the URL is :https://openapi.qfpay.com
 
 Note:This API has no sandbox enviroment, please be noted.
 ## Glossary
