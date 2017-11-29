@@ -1,5 +1,5 @@
 # 2.Payment(/trade/v1)
-What is QFPay_Oversea API?
+What is QFPay_Global(国内钱台) API?
 
 Merchant applies Wechat and Alipay from QFPay.
 
